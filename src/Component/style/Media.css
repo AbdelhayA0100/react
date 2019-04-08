@@ -1,0 +1,95 @@
+@media screen and (min-width:100px)
+    
+{
+      .header{
+        z-index: 1;
+       
+      }
+      .side-nav{
+        width: 60px;
+        z-index: 2;
+      }
+      .side-nav ul li span:nth-child(2) {
+        display: none;
+      }
+      .side-nav ul li {
+        font-size: 25px;
+        text-align: center;
+      }
+      .logo span:nth-child(2){
+        display: none;
+      }
+      .main-content{
+        margin-left: 75px;
+        padding-top: 90px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+      }
+      .main{
+        padding-top:20px;
+        
+      }
+      .form_profil{
+        width: 95% !important;
+    }
+    button#dropdown-basic {
+      margin-top: -15px;
+      margin-right: 0px;}
+    
+    }
+    
+    @media screen and (min-width:1000px)
+    {
+
+      .side-nav{
+        width: 250px;
+      }
+      .side-nav ul li {
+        font-size: 15px;
+        text-align: left;
+      }
+     
+      .side-nav ul li span:nth-child(2){
+        display: inline;
+      }
+      .logo span:nth-child(2){
+        display: initial;
+      }
+      .main-content{
+        margin-left: 280px;
+        padding-top: 100px;
+        padding-bottom:30px;
+
+      }
+      .form_profil{
+        width: 80% !important;
+    }
+      
+    }
+    /* @media screen and (max-width:500px)
+    {
+      .side-nav{
+        display: none;
+      }
+      .main-content{
+        margin-left: 5px;
+        padding-top: 100px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+       
+      }
+      .link_show {
+        padding-right: 20px;
+      }
+      .main{
+        padding-top: 10px;
+      }
+      .form_profil{
+        width: 95% !important;
+    }
+    .profil_info.dropdown-menu.show{
+      margin-top: 10px;
+      margin-right: 105px;
+    }
+
+    } */

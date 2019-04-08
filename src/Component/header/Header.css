@@ -1,0 +1,39 @@
+.header{
+    position: fixed;
+    width:100%;
+    height: 70px;
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.295);
+    font-family: 'Ubuntu', sans-serif;
+    z-index: 4;
+  }
+  .header .nav_end{
+    padding-top: 17px;
+  }
+  .header .nav_end a{
+    color: black;
+  }
+  .link_show {
+    padding-right: 20px;
+  }
+  .profil_info.dropdown-menu{
+    transition:  1s initial;
+  }
+  .profil_info.dropdown-menu.show{
+    margin-top: 10px;
+    padding-right: 5px;
+    
+  }
+  button#dropdown-basic {
+    margin-top: -15px;
+    margin-right: 50px;
+   
+}
+button#dropdown-basic img {
+ 
+  box-shadow: 1px 1px 10px rgb(10, 66, 119);
+}
+.dropdown-toggle::after{
+  content:none !important;
+}

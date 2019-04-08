@@ -1,0 +1,38 @@
+.table{
+    overflow-x: scroll;
+    border-radius: 5px;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+   }
+   .table::-webkit-scrollbar{
+    height: 8px;
+  }
+  .table::-webkit-scrollbar-thumb{
+    background: rgba(136, 136, 136, 0.534);
+    border-radius: 10px; 
+  }
+  .table::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  .head-table{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+  }
+  tbody {
+    background-color: white;
+    color: black;   
+  }
+  tbody tr:hover {
+    background-color: rgba(17, 83, 92, 0.171)!important;
+    transition:  500ms all;
+  }
+  .main-content .title{
+    background-color: azure;
+   
+    font-weight: 700;
+    color: #244b59;
+    font-size: 15px;
+    
+  }
